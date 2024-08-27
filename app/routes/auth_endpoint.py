@@ -18,8 +18,6 @@ def authenticate():
     username = request.json['username']
     keystrokes = request.json['keystrokes']
     
-    print(username, keystrokes)
-    
     # Save the raw keystroke data as a CSV file and get the file path
     keystroke_csv_path = save_keystroke_data(username, keystrokes)
     
@@ -33,6 +31,12 @@ def authenticate():
     # Preprocess the keystroke data
     processed_data = preprocess_keystroke_data(keystrokes)
     
+    # kip rich
+    print(f'processed_data shape: {processed_data.shape}',processed_data)
+    kp_processed = processed_data.reshape(-1,1)
+    
+    print(f'processed_data shape: {kp_processed.shape}',kp_processed)
+    
     # Extract features from the keystrokes and save them as a CSV file
     # features_csv_path = save_features(username, processed_data)
     
@@ -40,7 +44,7 @@ def authenticate():
     
     # Choose a model based on your requirement (e.g., CNN)
     model = create_cnn_model(input_shape=(28, 28, 1))
-    model_path = train_and_save_model(model, processed_data, username)
+    model_path = train_and_save_model(model, kp_processed, username)
     
     # Store paths in the database
     user_keystroke = UserKeystrokes(username=username, keystroke_path=keystroke_csv_path, features_path=features_csv_path)

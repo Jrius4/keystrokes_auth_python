@@ -1,0 +1,37 @@
+key,time,event,hold_time,flight_time
+j,11939,keydown,140.0,
+k,12250,keydown,-219.0,219.0
+j,12298,keydown,234.0,297.0
+f,12376,keydown,359.0,31.0
+d,12469,keydown,344.0,141.0
+j,12625,keydown,141.0,281.0
+k,12766,keydown,-1578.0,94.0
+r,13047,keydown,-2624.0,15.0
+t,13485,keydown,-2968.0,125.0
+ ,13953,keydown,-1937.0,109.0
+f,14188,keydown,-3126.0,312.0
+d,14438,keydown,219.0,32.0
+j,14438,keydown,-1750.0,94.0
+k,14547,keydown,-3407.0,235.0
+j,14703,keydown,-4423.0,15.0
+g,14749,keydown,-4921.0,78.0
+j,15047,keydown,-5327.0,15.0
+d,15110,keydown,-5111.0,17.0
+r,15328,keydown,,
+j,15422,keydown,,
+k,15531,keydown,,
+e,15641,keydown,,
+ ,15844,keydown,,
+f,16110,keydown,,
+d,16235,keydown,,
+j,16281,keydown,,
+k,16391,keydown,,
+j,16625,keydown,,
+k,16828,keydown,,
+j,17000,keydown,,
+r,17188,keydown,,
+e,17328,keydown,,
+j,17406,keydown,,
+k,17516,keydown,,
+t,17516,keydown,,
+e,17656,keydown,,

@@ -3,6 +3,8 @@ Flask-SQLAlchemy
 Flask-Migrate
 python-dotenv
 tensorflow
+ipykernel
+ipython
 numpy
 pandas
 scikit-learn
