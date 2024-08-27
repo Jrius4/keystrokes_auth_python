@@ -1,0 +1,159 @@
+key,time,event
+t,7065,keydown
+h,7153,keydown
+t,7219,keyup
+h,7249,keyup
+e,7569,keydown
+e,7706,keyup
+ ,7793,keydown
+ ,7888,keyup
+g,8223,keydown
+g,8316,keyup
+i,8526,keydown
+i,8625,keyup
+r,8723,keydown
+r,8859,keyup
+l,8971,keydown
+l,9092,keyup
+ ,9450,keydown
+ ,9537,keyup
+t,10343,keydown
+t,10463,keyup
+h,10491,keydown
+h,10595,keyup
+e,10835,keydown
+e,10932,keyup
+ ,11183,keydown
+ ,11282,keyup
+g,12222,keydown
+g,12326,keyup
+i,12420,keydown
+i,12509,keyup
+t,12668,keydown
+t,12821,keyup
+l,12884,keydown
+l,13019,keyup
+ ,13671,keydown
+ ,13779,keyup
+d,14516,keydown
+s,14600,keydown
+j,14651,keydown
+d,14686,keyup
+s,14809,keyup
+j,14811,keyup
+k,14833,keydown
+k,14938,keyup
+r,15149,keydown
+e,15332,keydown
+u,15378,keydown
+r,15379,keyup
+e,15441,keyup
+u,15470,keyup
+ ,15890,keydown
+ ,16006,keyup
+d,16437,keydown
+d,16604,keyup
+j,16637,keydown
+j,16772,keyup
+k,16992,keydown
+k,17146,keyup
+f,17177,keydown
+d,17335,keydown
+f,17353,keyup
+s,17439,keydown
+j,17478,keydown
+d,17559,keyup
+s,17571,keyup
+j,17597,keyup
+o,18039,keydown
+o,18133,keyup
+r,18326,keydown
+e,18413,keydown
+r,18489,keyup
+u,18578,keydown
+e,18595,keyup
+u,18693,keyup
+ ,18973,keydown
+ ,19088,keyup
+j,19430,keydown
+s,19453,keydown
+j,19603,keyup
+k,19613,keydown
+a,19674,keydown
+k,19790,keyup
+d,19878,keydown
+a,19900,keyup
+s,19923,keyup
+d,20013,keyup
+u,20210,keydown
+e,20305,keydown
+u,20374,keyup
+w,20446,keydown
+e,20447,keyup
+w,20583,keyup
+j,20838,keydown
+j,20950,keyup
+d,21027,keydown
+a,21185,keydown
+d,21198,keyup
+k,21333,keydown
+a,21334,keyup
+k,21450,keyup
+ ,21739,keydown
+ ,21840,keyup
+s,22039,keydown
+a,22072,keydown
+a,22315,keyup
+j,22328,keydown
+k,22346,keydown
+s,22404,keyup
+j,22409,keyup
+d,22514,keydown
+k,22515,keyup
+d,22711,keyup
+e,22727,keydown
+w,22744,keydown
+e,22835,keyup
+u,22894,keydown
+i,22946,keydown
+w,22947,keyup
+u,23047,keyup
+i,23088,keyup
+d,23492,keydown
+s,23642,keydown
+a,23650,keydown
+d,23652,keyup
+h,23844,keydown
+s,23845,keyup
+a,23862,keyup
+j,23887,keydown
+h,23918,keyup
+j,24048,keyup
+ ,24823,keydown
+ ,24949,keyup
+d,25236,keydown
+j,25330,keydown
+j,25366,keyup
+k,25383,keydown
+s,25395,keydown
+a,25399,keydown
+d,25427,keyup
+k,25517,keyup
+s,25552,keyup
+a,25567,keyup
+j,25791,keydown
+j,25964,keyup
+e,26000,keydown
+e,26037,keyup
+f,26250,keydown
+u,26268,keydown
+i,26340,keydown
+u,26399,keyup
+f,26457,keyup
+i,26501,keyup
+f,26563,keydown
+e,26683,keydown
+f,26742,keyup
+w,26743,keydown
+w,26859,keyup
+e,26885,keyup

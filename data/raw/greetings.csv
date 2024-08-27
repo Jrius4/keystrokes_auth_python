@@ -1,0 +1,219 @@
+key,time,event
+h,7782,keydown
+h,7883,keyup
+e,7967,keydown
+e,8086,keyup
+l,8408,keydown
+l,8501,keyup
+o,8663,keydown
+o,8747,keyup
+ ,10022,keydown
+ ,10166,keyup
+h,12391,keydown
+h,12489,keyup
+e,12996,keydown
+e,13079,keyup
+l,13246,keydown
+l,13341,keyup
+l,13428,keydown
+l,13530,keyup
+o,13635,keydown
+o,13745,keyup
+ ,13962,keydown
+ ,14086,keyup
+h,14404,keydown
+h,14502,keyup
+e,14674,keydown
+e,14793,keyup
+l,14891,keydown
+l,14981,keyup
+l,15053,keydown
+l,15183,keyup
+o,15242,keydown
+o,15347,keyup
+ ,15514,keydown
+ ,15624,keyup
+h,15837,keydown
+h,15945,keyup
+e,16061,keydown
+e,16191,keyup
+l,16266,keydown
+l,16356,keyup
+l,16431,keydown
+l,16546,keyup
+o,16609,keydown
+o,16729,keyup
+ ,17004,keydown
+ ,17112,keyup
+h,17339,keydown
+h,17425,keyup
+e,17552,keydown
+e,17675,keyup
+l,17761,keydown
+l,17857,keyup
+l,17930,keydown
+l,18038,keyup
+o,18108,keydown
+o,18248,keyup
+ ,18590,keydown
+ ,18710,keyup
+h,18928,keydown
+h,19029,keyup
+e,19145,keydown
+e,19263,keyup
+l,19381,keydown
+l,19483,keyup
+l,19549,keydown
+l,19659,keyup
+o,19741,keydown
+o,19881,keyup
+ ,20096,keydown
+ ,20222,keyup
+h,20513,keydown
+h,20629,keyup
+e,20756,keydown
+e,20903,keyup
+l,20993,keydown
+l,21050,keyup
+l,21122,keydown
+l,21205,keyup
+l,21612,keydown
+l,21716,keyup
+o,21833,keydown
+o,21925,keyup
+ ,22139,keydown
+ ,22237,keyup
+h,22977,keydown
+h,23072,keyup
+e,23237,keydown
+e,23338,keyup
+l,23468,keydown
+l,23552,keyup
+l,23617,keydown
+l,23719,keyup
+o,23817,keydown
+o,23900,keyup
+ ,24069,keydown
+ ,24177,keyup
+h,24350,keydown
+h,24482,keyup
+e,24577,keydown
+e,24718,keyup
+l,24761,keydown
+l,24851,keyup
+l,24909,keydown
+l,25010,keyup
+o,25426,keydown
+o,25570,keyup
+ ,25859,keydown
+ ,25977,keyup
+h,26662,keydown
+h,26772,keyup
+e,26907,keydown
+e,27010,keyup
+l,27129,keydown
+l,27222,keyup
+l,27289,keydown
+l,27411,keyup
+o,27506,keydown
+o,27603,keyup
+ ,27893,keydown
+ ,28016,keyup
+i,28862,keydown
+i,28956,keyup
+ ,29118,keydown
+ ,29231,keyup
+l,29675,keydown
+l,29773,keyup
+o,30236,keydown
+o,30368,keyup
+v,30547,keydown
+v,30638,keyup
+e,30727,keydown
+e,30864,keyup
+ ,30950,keydown
+ ,31058,keyup
+b,32773,keydown
+b,32877,keyup
+o,33162,keydown
+o,33228,keyup
+o,33300,keydown
+o,33403,keyup
+k,33582,keydown
+k,33686,keyup
+s,33869,keydown
+s,34005,keyup
+ ,34157,keydown
+ ,34254,keyup
+b,34923,keydown
+b,35011,keyup
+o,35785,keydown
+o,35880,keyup
+o,35940,keydown
+o,36035,keyup
+k,36190,keydown
+k,36290,keyup
+s,36434,keydown
+ ,36547,keydown
+s,36558,keyup
+ ,36674,keyup
+a,37102,keydown
+n,37214,keydown
+a,37253,keyup
+n,37327,keyup
+d,37457,keydown
+ ,37602,keydown
+d,37603,keyup
+ ,37717,keyup
+p,38776,keydown
+p,38903,keyup
+r,38950,keydown
+r,39071,keyup
+o,39081,keydown
+o,39200,keyup
+g,39625,keydown
+g,39736,keyup
+a,40813,keydown
+a,40920,keyup
+j,42715,keydown
+s,42882,keydown
+j,42884,keyup
+a,43077,keydown
+s,43081,keyup
+k,43099,keydown
+a,43191,keyup
+k,43222,keyup
+ ,43599,keydown
+ ,43699,keyup
+r,44498,keydown
+r,44692,keyup
+j,44817,keydown
+j,44915,keyup
+k,45123,keydown
+s,45205,keydown
+k,45271,keyup
+s,45405,keyup
+a,45454,keydown
+a,45642,keyup
+ ,45789,keydown
+ ,45891,keyup
+f,46089,keydown
+r,46228,keydown
+u,46282,keydown
+e,46283,keydown
+r,46326,keyup
+i,46326,keydown
+f,46327,keyup
+u,46372,keyup
+e,46390,keyup
+i,46399,keyup
+j,46639,keydown
+a,46715,keydown
+s,46716,keydown
+j,46750,keyup
+a,46837,keyup
+k,46886,keydown
+d,46943,keydown
+s,46987,keyup
+k,47060,keyup
+d,47066,keyup

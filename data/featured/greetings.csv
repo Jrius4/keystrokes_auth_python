@@ -1,0 +1,110 @@
+key,time,event,hold_time,flight_time
+h,7782,keydown,101.0,
+e,7967,keydown,93.0,322.0
+l,8408,keydown,144.0,1275.0
+o,8663,keydown,-4910.0,507.0
+ ,10022,keydown,-4927.0,87.0
+h,12391,keydown,-3796.0,217.0
+e,12996,keydown,-6588.0,172.0
+l,13246,keydown,-6552.0,72.0
+l,13428,keydown,-5348.0,167.0
+o,13635,keydown,-7975.0,116.0
+ ,13962,keydown,-7930.0,75.0
+h,14404,keydown,-6838.0,275.0
+e,14674,keydown,-9466.0,127.0
+l,14891,keydown,-9429.0,73.0
+l,15053,keydown,-8424.0,342.0
+o,15242,keydown,-11059.0,116.0
+ ,15514,keydown,-11048.0,66.0
+h,15837,keydown,-9930.0,215.0
+e,16061,keydown,-12670.0,127.0
+l,16266,keydown,-12621.0,72.0
+l,16431,keydown,-13086.0,117.0
+o,16609,keydown,-15094.0,740.0
+ ,17004,keydown,-14967.0,130.0
+h,17339,keydown,-15070.0,98.0
+e,17552,keydown,-16467.0,173.0
+l,17761,keydown,-16260.0,43.0
+l,17930,keydown,-16679.0,416.0
+o,18108,keydown,-18779.0,685.0
+ ,18590,keydown,-18628.0,119.0
+h,18928,keydown,-18759.0,95.0
+e,19145,keydown,94.0,846.0
+l,19381,keydown,-21174.0,444.0
+l,19549,keydown,91.0,179.0
+o,19741,keydown,-20784.0,86.0
+ ,20096,keydown,-24415.0,285.0
+h,20513,keydown,104.0,179.0
+e,20756,keydown,-23991.0,152.0
+l,20993,keydown,-27038.0,774.0
+l,21122,keydown,-2504.0,155.0
+l,21612,keydown,-26381.0,257.0
+o,21833,keydown,113.0,540.0
+ ,22139,keydown,-27436.0,275.0
+h,22977,keydown,121.0,47.0
+e,23237,keydown,111.0,425.0
+l,23468,keydown,169.0,1795.0
+l,23617,keydown,-5824.0,193.0
+o,23817,keydown,-33433.0,377.0
+ ,24069,keydown,-1933.0,125.0
+h,24350,keydown,-11200.0,290.0
+e,24577,keydown,-35623.0,147.0
+l,24761,keydown,-7157.0,337.0
+l,24909,keydown,-38197.0,392.0
+o,25426,keydown,-3755.0,240.0
+ ,25859,keydown,-12711.0,317.0
+h,26662,keydown,-9340.0,106.0
+e,26907,keydown,,
+l,27129,keydown,,
+l,27289,keydown,,
+o,27506,keydown,,
+ ,27893,keydown,,
+i,28862,keydown,,
+ ,29118,keydown,,
+l,29675,keydown,,
+o,30236,keydown,,
+v,30547,keydown,,
+e,30727,keydown,,
+ ,30950,keydown,,
+b,32773,keydown,,
+o,33162,keydown,,
+o,33300,keydown,,
+k,33582,keydown,,
+s,33869,keydown,,
+ ,34157,keydown,,
+b,34923,keydown,,
+o,35785,keydown,,
+o,35940,keydown,,
+k,36190,keydown,,
+s,36434,keydown,,
+ ,36547,keydown,,
+a,37102,keydown,,
+n,37214,keydown,,
+d,37457,keydown,,
+ ,37602,keydown,,
+p,38776,keydown,,
+r,38950,keydown,,
+o,39081,keydown,,
+g,39625,keydown,,
+a,40813,keydown,,
+j,42715,keydown,,
+s,42882,keydown,,
+a,43077,keydown,,
+k,43099,keydown,,
+ ,43599,keydown,,
+r,44498,keydown,,
+j,44817,keydown,,
+k,45123,keydown,,
+s,45205,keydown,,
+a,45454,keydown,,
+ ,45789,keydown,,
+f,46089,keydown,,
+r,46228,keydown,,
+u,46282,keydown,,
+e,46283,keydown,,
+i,46326,keydown,,
+j,46639,keydown,,
+a,46715,keydown,,
+s,46716,keydown,,
+k,46886,keydown,,
+d,46943,keydown,,

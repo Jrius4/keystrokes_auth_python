@@ -5,6 +5,7 @@ from app.utils.data_processing import preprocess_keystroke_data, save_keystroke_
 from app.utils.model_training import train_and_save_model
 from app.paradigms.cnn_model import create_cnn_model
 from app.paradigms.lstm_model import create_lstm_model
+from app.paradigms.randomForest_model import train_random_forest_model
 from app.models.models import UserKeystrokes, TrainedModels
 from app.extensions import db
 
@@ -24,6 +25,10 @@ def authenticate():
     
     # Extract features from the keystrokes and save them as a CSV file
     features_csv_path = save_keystroke_featured_data(username,keystroke_csv_path)
+    
+    # Train a Random Forest model using the keystroke data
+    rf_model, rf_accuracy= train_random_forest_model(features_csv_path) # this passes
+    print(f"Training Random Forest: '{rf_accuracy:.4f}'")
     
     # Preprocess the keystroke data
     processed_data = preprocess_keystroke_data(keystrokes)

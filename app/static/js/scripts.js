@@ -4,6 +4,25 @@ let keystrokes = [];
 
 // Capture keystrokes and store them in the array
 function captureKeystroke(event) {
+    if(event.key === 'Tab'  || event.key === 'Enter'|| event.key === 'escape') {
+        return;
+      }
+    console.log('capturing key', {
+        key: event.key,
+        time: event.timeStamp,
+        actions: event.type
+    });
+    keystrokes.push({
+        key: event.key,
+        time: event.timeStamp,
+        event: event.type
+    });
+}
+
+document.getElementById('keystroke-input').addEventListener('keydown', captureKeystroke);
+document.getElementById('keystroke-input').addEventListener('keyup', captureKeystroke);
+
+function captureKeystrokeUp(event) {
     console.log('capturing key', {
         key: event.key,
         time: event.timeStamp,
@@ -21,6 +40,7 @@ document.getElementById('keystroke-form').addEventListener('submit', function (e
 
     const username = document.getElementById('username').value;
     // let keystrokes = [];
+    console.log({keystrokes});
 
     // // Capture keystrokes and store them in the array
     // function captureKeystroke(event) {

@@ -13,10 +13,10 @@ def preprocess_keystroke_data(data):
     release_times = []
     
     for k in data:
-        if k['action'] == 'keydown':
-            press_times.append(k['timestamp'])
-        elif k['action'] == 'keyup':
-            release_times.append(k['timestamp'])
+        if k['event'] == 'keydown':
+            press_times.append(k['time'])
+        elif k['event'] == 'keyup':
+            release_times.append(k['time'])
     
     # Flight time (time between press and release of the same key)
     flight_times = np.array(release_times) - np.array(press_times)
@@ -26,7 +26,7 @@ def preprocess_keystroke_data(data):
     
     return np.concatenate([flight_times, delay_times])
     
-    return np.array(data).reshape(-1, 1)
+    # return np.array(data).reshape(-1, 1)
 
 def save_keystroke_data(username, keystrokes):
     # Save keystrokes to a CSV file and return the file path
