@@ -1,0 +1,141 @@
+key,time,event,hold_time,flight_time
+h,23393,keydown,115.0,
+h,23508,keyup,128.0,217.0
+e,23725,keydown,82.0,218.0
+e,23853,keyup,-160.0,160.0
+l,24071,keydown,146.0,206.0
+l,24153,keyup,118.0,281.0
+l,24313,keydown,152.0,1715.0
+l,24439,keyup,-3125.0,1258.0
+o,24645,keydown,-3661.0,1395.0
+o,24791,keyup,133.0,230.0
+w,25072,keydown,-5256.0,456.0
+w,25190,keyup,133.0,320.0
+ ,26905,keydown,-3035.0,152.0
+ ,27057,keyup,-8276.0,1565.0
+w,28315,keydown,-8260.0,228.0
+o,28452,keydown,-8194.0,128.0
+w,28474,keyup,-8398.0,119.0
+o,28590,keyup,-8043.0,187.0
+r,28820,keydown,-6225.0,365.0
+r,28953,keyup,80.0,379.0
+l,29409,keydown,111.0,704.0
+l,29487,keyup,188.0,239.0
+d,29807,keydown,139.0,412.0
+d,29940,keyup,-5519.0,238.0
+ ,30092,keydown,-633.0,161.0
+ ,30219,keyup,-8969.0,126.0
+h,31784,keydown,-4126.0,3076.0
+h,31885,keyup,-10635.0,262.0
+e,32113,keydown,-15814.0,341.0
+e,32219,keyup,-12813.0,0.0
+l,32347,keydown,70.0,310.0
+l,32432,keyup,-15753.0,183.0
+l,32551,keydown,-6921.0,92.0
+l,32647,keyup,-14001.0,147.0
+o,32834,keydown,-6919.0,421.0
+o,32917,keyup,-17057.0,138.0
+ ,33282,keydown,-17248.0,78.0
+ ,33396,keyup,-12342.0,116.0
+u,33775,keydown,-15427.0,70.0
+u,33855,keyup,-20127.0,1043.0
+g,34559,keydown,-19312.0,362.0
+g,34670,keyup,132.0,9.0
+a,34909,keydown,-20707.0,157.0
+n,35082,keydown,-17689.0,43.0
+a,35097,keyup,-5133.0,652.0
+n,35221,keyup,-20996.0,178.0
+d,35459,keydown,-12200.0,97.0
+d,35569,keyup,-17450.0,211.0
+a,35730,keydown,-19582.0,82.0
+a,35900,keyup,-22312.0,357.0
+ ,36026,keydown,140.0,148.0
+ ,36147,keyup,-12589.0,151.0
+a,39223,keydown,-7847.0,336.0
+a,39326,keyup,-21587.0,304.0
+r,39588,keydown,-20349.0,522.0
+e,39667,keydown,-15972.0,393.0
+r,39785,keyup,-15527.0,234.0
+e,39870,keyup,-26790.0,335.0
+ ,39870,keydown,183.0,80.0
+ ,39981,keyup,-23853.0,121.0
+y,40291,keydown,-26295.0,2328.0
+y,40361,keyup,-30290.0,298.0
+o,40544,keydown,-30228.0,145.0
+o,40684,keyup,-30932.0,216.0
+u,40776,keydown,-30975.0,295.0
+u,40911,keyup,-31648.0,226.0
+ ,41058,keydown,-31664.0,277.0
+ ,41168,keyup,-32316.0,193.0
+g,41589,keydown,-32334.0,246.0
+g,41710,keyup,118.0,1585.0
+o,41848,keydown,,
+o,41961,keyup,,
+o,42039,keydown,,
+o,42166,keyup,,
+d,42282,keydown,,
+d,42414,keyup,,
+ ,42484,keydown,,
+ ,42592,keyup,,
+h,43635,keydown,,
+h,43741,keyup,,
+o,44103,keydown,,
+o,44262,keyup,,
+p,44271,keydown,,
+p,44403,keyup,,
+e,44560,keydown,,
+e,44703,keyup,,
+ ,44746,keydown,,
+ ,44842,keyup,,
+y,45494,keydown,,
+y,45609,keyup,,
+o,45787,keydown,,
+o,45958,keyup,,
+u,46055,keydown,,
+u,46192,keyup,,
+r,46403,keydown,,
+r,46557,keyup,,
+ ,46639,keydown,,
+ ,46746,keyup,,
+o,47103,keydown,,
+o,47247,keyup,,
+k,47395,keydown,,
+k,47535,keyup,,
+a,47686,keydown,,
+a,47872,keyup,,
+y,48208,keydown,,
+y,48340,keyup,,
+ ,48644,keydown,,
+ ,48780,keyup,,
+r,49302,keydown,,
+r,49434,keyup,,
+u,49827,keydown,,
+u,49963,keyup,,
+g,50197,keydown,,
+h,50298,keydown,,
+g,50376,keyup,,
+h,50526,keyup,,
+t,50606,keydown,,
+t,50789,keyup,,
+ ,50910,keydown,,
+ ,51024,keyup,,
+ ,53352,keydown,,
+ ,53500,keyup,,
+h,53798,keydown,,
+h,53936,keyup,,
+e,54081,keydown,,
+e,54224,keyup,,
+h,54440,keydown,,
+h,54533,keyup,,
+e,54828,keydown,,
+e,54930,keyup,,
+h,55156,keydown,,
+h,55240,keyup,,
+e,55517,keydown,,
+e,55631,keyup,,
+h,55824,keydown,,
+h,55941,keyup,,
+e,56187,keydown,,
+e,56283,keyup,,
+.,57868,keydown,,
+.,57986,keyup,,
