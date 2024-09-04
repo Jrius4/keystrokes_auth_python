@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
-{% block title %}Home - My Flask App{% endblock %}
+{% block title %}Home - - Keystrokes Auth{% endblock %}
 
 {% block content %}
-    <h1>Welcome to My Flask App!</h1>
-   <div class="container-fluid">
-    <form  id="keystroke-form"  class="row justify-content-start">
+    <h1 class="text-center">Welcome to - Keystrokes Auth!</h1>
+   <div class="">
+    <form  id="keystroke-form"  class="row justify-content-center">
         <div class="col-md-8">
             <div class="form-group">
                 <input id="username" name="username" type="text" class="form-control" placeholder="# username" required>
@@ -17,8 +17,11 @@
                
             </div>
         </div>
-        <div class="col-md-8 my-3">
-          <button class="btn btn-block w-100 btn-outline-primary">Authenticate</button>
+        <div class="col-md-6 my-3">
+            <button onclick="register(event)" class="btn btn-block w-100 btn-outline-primary">Register</button>
+          </div>
+        <div class="col-md-6 my-3">
+          <button class="btn btn-block w-100 btn-outline-success">Login</button>
         </div>
     </form>
    </div>
