@@ -307,7 +307,38 @@ function rfRegister(event) {
             }
         }).catch((e)=>{
             console.error(e);
-            alert('Internal Error: ' + e.message)
+            alert('Imposter : ' + e.message)
+        });
+
+}
+
+function rfAuthenticate(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const keyvalues = document.getElementById('keystroke-input').value;
+
+    if (username === "" || keyvalues === "") {
+        alert('Both username and keystroke are required');
+        return;
+    }
+    // Send the keystroke data to the server for authentication
+    fetch('/authenticate-rf', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, keystrokes })
+    }).then(response => response.json())
+        .then(data => {
+            // Handle the authentication response
+            if (data.authenticated) {
+                alert('Authenticated successful!');
+            } else {
+                alert('Authentication failed.');
+            }
+        }).catch((e)=>{
+            console.error(e);
+            alert('Imposter : ' + e.message)
         });
 
 }

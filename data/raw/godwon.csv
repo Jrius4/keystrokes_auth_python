@@ -1,0 +1,23 @@
+key,time,event
+h,8791,keydown
+h,8901,keyup
+e,8994,keydown
+e,9135,keyup
+y,9291,keydown
+y,9401,keyup
+ ,9604,keydown
+ ,9713,keyup
+h,10010,keydown
+h,10151,keyup
+e,10338,keydown
+e,10510,keyup
+y,10682,keydown
+y,10823,keyup
+ ,11229,keydown
+ ,11385,keyup
+h,11604,keydown
+h,11776,keyup
+e,11916,keydown
+e,12135,keyup
+y,12291,keydown
+y,12448,keyup

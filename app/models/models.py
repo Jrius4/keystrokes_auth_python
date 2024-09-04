@@ -10,7 +10,7 @@ class User(db.Model):
 class UserKeystrokes(db.Model):
     # Table for storing keystroke data
     id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), nullable=False)
+    username = db.Column(db.String(80), nullable=False,unique=True)
     keystroke_path = db.Column(db.String(120), nullable=False)
     features_path = db.Column(db.String(120), nullable=False)
 
