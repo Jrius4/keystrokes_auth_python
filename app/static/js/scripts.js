@@ -184,6 +184,37 @@ function ganRegister(event) {
 
 }
 
+function ganAuthenticate(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const keyvalues = document.getElementById('keystroke-input').value;
+
+    if (username === "" || keyvalues === "") {
+        alert('Both username and keystroke are required');
+        return;
+    }
+    // Send the keystroke data to the server for authentication
+    fetch('/authenticate-gan', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, keystrokes })
+    }).then(response => response.json())
+        .then(data => {
+            // Handle the authentication response
+            if (data.authenticated) {
+                alert('Registration successful!');
+            } else {
+                alert('Registration failed.');
+            }
+        }).catch((e)=>{
+            console.error(e);
+            alert('Internal Error: ' + e.message)
+        });
+
+}
+
 
 function cnnRegister(event) {
     event.preventDefault();
@@ -250,6 +281,38 @@ function lstmRegister(event) {
 }
 
 
+function lstmAuthenticate(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const keyvalues = document.getElementById('keystroke-input').value;
+
+    if (username === "" || keyvalues === "") {
+        alert('Both username and keystroke are required');
+        return;
+    }
+    // Send the keystroke data to the server for authentication
+    fetch('/authenticate-lstm', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, keystrokes })
+    }).then(response => response.json())
+        .then(data => {
+            // Handle the authentication response
+            if (data.authenticated) {
+                alert('Registration successful!');
+            } else {
+                alert('Registration failed.');
+            }
+        }).catch((e)=>{
+            console.error(e);
+            alert('Internal Error: ' + e.message)
+        });
+
+}
+
+
 function mlpRegister(event) {
     event.preventDefault();
     const username = document.getElementById('username').value;
@@ -273,6 +336,37 @@ function mlpRegister(event) {
                 alert('Registration successful!');
             } else {
                 alert('Registration failed.');
+            }
+        }).catch((e)=>{
+            console.error(e);
+            alert('Internal Error: ' + e.message)
+        });
+
+}
+
+function mlpAuthenticate(event) {
+    event.preventDefault();
+    const username = document.getElementById('username').value;
+    const keyvalues = document.getElementById('keystroke-input').value;
+
+    if (username === "" || keyvalues === "") {
+        alert('Both username and keystroke are required');
+        return;
+    }
+    // Send the keystroke data to the server for authentication
+    fetch('/authenticate-mlp', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ username, keystrokes })
+    }).then(response => response.json())
+        .then(data => {
+            // Handle the authentication response
+            if (data.authenticated) {
+                alert('Authentication successful!');
+            } else {
+                alert('Authentication failed.');
             }
         }).catch((e)=>{
             console.error(e);

@@ -7,7 +7,7 @@ import csv
 import pandas as pd
 
 
-def save_keystroke_data(username, keystrokes):
+def save_keystroke_data(username, keystrokes,level='registration',):
     # Save keystrokes to a CSV file and return the file path
     # path = f'data/keystrokes/{username}_keystrokes.csv'
     # os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -16,7 +16,7 @@ def save_keystroke_data(username, keystrokes):
     #     writer.writerows(keystrokes)
     # return path
     df = pd.DataFrame(keystrokes)
-    raw_dir = os.path.join('data', 'raw')
+    raw_dir = os.path.join('data', f'raw_{level}')
     if not os.path.exists(raw_dir):
         os.makedirs(raw_dir)
     filepath = os.path.join(raw_dir,f'{username}.csv')
@@ -29,10 +29,10 @@ def get_processed_data(filepath):
 
 
 # generate features start
-def generate_features(username,filepath):
+def generate_features(username,filepath,level='registration'):
     # Generate features here
 
-    process_dir = os.path.join('processed_data','processed_features')
+    process_dir = os.path.join('processed_data',f'processed_features_{level}')
     if not os.path.exists(process_dir):
         os.makedirs(process_dir)
     processed_filepath = os.path.join(process_dir, f'{username}_processed_featured_data.csv')

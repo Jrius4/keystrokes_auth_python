@@ -1,0 +1,47 @@
+key,time,event
+h,29045,keydown
+h,29156,keyup
+e,29305,keydown
+e,29421,keyup
+l,29595,keydown
+l,29673,keyup
+l,29755,keydown
+l,29856,keyup
+o,29964,keydown
+o,30076,keyup
+ ,30200,keydown
+ ,30307,keyup
+w,30495,keydown
+o,30630,keydown
+w,30658,keyup
+o,30753,keyup
+r,30900,keydown
+r,31022,keyup
+l,31042,keydown
+l,31187,keyup
+d,31219,keydown
+d,31377,keyup
+ ,31445,keydown
+ ,31541,keyup
+h,32788,keydown
+h,32886,keyup
+e,33202,keydown
+e,33309,keyup
+l,33452,keydown
+l,33554,keyup
+l,33636,keydown
+l,33736,keyup
+o,33852,keydown
+o,33976,keyup
+ ,34183,keydown
+ ,34275,keyup
+w,34424,keydown
+w,34549,keyup
+o,36687,keydown
+o,36836,keyup
+r,36996,keydown
+r,37123,keyup
+l,37150,keydown
+l,37316,keyup
+d,37413,keydown
+d,37553,keyup
